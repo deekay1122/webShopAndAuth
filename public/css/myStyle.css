@@ -1,0 +1,85 @@
+/* Utilities */
+
+:root {
+    --border-color: #555252;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: lightpink;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.container {
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+/* Navigation */
+
+.navigation {
+    display: flex;
+    background: red;
+    height: 100px;
+}
+
+.navigation p {
+    align-self: center;
+    padding-left: 100px;
+}
+
+.navigation ul {
+    align-self: center;
+    margin-left: auto;
+    padding-right: 100px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.navigation ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Products Page */
+
+
+.productDiv {
+    background-color: lightyellow;
+    min-width: 250px;
+    border: solid 1px var(--border-color);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+/* Cart page */
+
+.leftAlignContainer {
+    background-color: lightblue;
+
+    justify-content: left;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+.heldItem {
+    display: flex;
+}
+
+.heldItem .productName {
+    width: 20%;
+}
+.heldItem .price {
+    width: 15%;
+}
